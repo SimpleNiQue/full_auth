@@ -163,6 +163,7 @@ else:
         }
     }
 
+DISABLE_COLLECTSTATIC=1
 
 # Third-party apps
 DJOSER = {
