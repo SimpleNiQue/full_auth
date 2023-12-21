@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "full-auth-api"
+version = "0.1.0"
+description = "full auth in django"
+authors = ["SimpleNiQue <simplenick01@gmail.com>"]
+readme = "README.md"
+packages = [{include = "full_auth_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+djangorestframework = "^3.14.0"
+djoser = "^2.2.2"
+django-cors-headers = "^4.3.1"
+python-dotenv = "^1.0.0"
+Django = "^5.0"
+gunicorn = "^21.2.0"
+dj-database-url = "^2.1.0"
+psycopg2-binary = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
